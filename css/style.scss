@@ -1,0 +1,13 @@
+@import"_variables";
+@import"_imagenes.scss";
+@import"_textos.scss";
+.boton{
+    border: 0%;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.boton2{
+    @extend .boton;
+    background-color:$colorTexto;
+    color: red;
+}
