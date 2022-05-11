@@ -2,6 +2,14 @@
 @import"_imagenes.scss";
 @import"_textos.scss";
 .boton{
-    background-color: black;
-}
+    border: map-get($boton: , borde ) ;
+    padding: map-get( $boton , padding );
 
+}
+.botton2{
+    @extend .boton;
+    background-color: $colorTexto;
+
+
+}
+|
