@@ -2,8 +2,8 @@
 @import"_imagenes.scss";
 @import"_textos.scss";
 .boton{
-    border: map-get($boton: , borde ) ;
-    padding: map-get( $boton , padding );
+    border: map-get($boton:  border ) ;
+    padding: map-get( $boton  padding );
 
 }
 .botton2{
@@ -12,4 +12,3 @@
 
 
 }
-|
